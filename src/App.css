@@ -1,3 +1,13 @@
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +45,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#main {
+  height: inherit;
+}
+
+.hero {
+  background-image: url(./assets/landingpage.jpg);
+  background-size: cover;
+  height: inherit;
+}
+
+.no-space-out {
+  margin: 0;
 }

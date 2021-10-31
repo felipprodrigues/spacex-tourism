@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__holder {
+  border: 1px solid white;
+  padding: 1.5rem 15rem 1.5rem 5em;
+
+}
+
+.navbar__list {
+  display: flex;
+  list-style-type: none;
+  color: white;
+  padding: 0;
+}
+
+.navbar__items:not(:first-child) {
+  margin-left: 1.5em;
+}
+
+.navbar__items:not(:last-child) {
+  margin-right: 1.5em;
+}
+
+
+
