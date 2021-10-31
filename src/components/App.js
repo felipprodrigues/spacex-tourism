@@ -1,10 +1,14 @@
 import React from 'react';
+import Navbar from './Navbar.js'
+import '../css/hero.css'
 
 class App extends React.Component {
   render() {
     return (
       <div className="hero">
-        <p className="no-space-out">Hello world</p>
+        <div className="hero__navbar navbar">
+          <Navbar />
+        </div>
       </div>
     )
   }
