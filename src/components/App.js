@@ -7,6 +7,7 @@ class App extends React.Component {
     return (
       <div className="hero">
         <div className="hero__navbar navbar">
+          <hr className="navbar__line--horizontal"></hr>
           <Navbar />
         </div>
       </div>

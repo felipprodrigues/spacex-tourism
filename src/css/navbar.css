@@ -5,8 +5,14 @@
 
 .navbar__holder {
   border: 1px solid white;
-  padding: 1.5rem 15rem 1.5rem 5em;
+  padding: 1.5rem 20em 1.5em 10em;
+  width: 40%;
+}
 
+.navbar__line--horizontal {
+  width: 50%;
+  position: relative;
+  margin-right: -1.5em;
 }
 
 .navbar__list {
